@@ -67,7 +67,6 @@ RUN set -x && \
     git clone -b ${LIBREOFFICE_BRANCH} https://github.com/LibreOffice/core.git /usr/src/libreoffice-core && \
     cd /usr/src/libreoffice-core && \
     echo "lo_sources_ver="`env | grep LIBREOFFICE_VERSION | cut -d'-' -f2` > sources.ver && \
-    git reset --hard ${LIBREOFFICE_COMMIT} && \
     git submodule init && \
     git submodule update translations && \
     git submodule update dictionaries && \
@@ -138,7 +137,6 @@ RUN set -x && \
 ### Build LibreOffice Online (Not as long as above)
     git clone -b ${LOOL_BRANCH} https://github.com/LibreOffice/online.git /usr/src/libreoffice-online && \
     cd /usr/src/libreoffice-online && \
-    git reset --hard ${LOOL_COMMIT} && \
     npm install -g \
                 bootstrap \
                 browserify-css \
