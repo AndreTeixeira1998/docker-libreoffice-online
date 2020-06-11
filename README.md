@@ -1,8 +1,4 @@
-# hub.docker.com/r/tiredofit/libreoffice-online
-
-[![Docker Pulls](https://img.shields.io/docker/pulls/tiredofit/libreoffice-online.svg)](https://hub.docker.com/r/tiredofit/libreoffice-online)
-[![Docker Stars](https://img.shields.io/docker/stars/tiredofit/libreoffice-online.svg)](https://hub.docker.com/r/tiredofit/libreoffice-online)
-[![Docker Layers](https://images.microbadger.com/badges/image/tiredofit/libreoffice-online.svg)](https://microbadger.com/images/tiredofit/libreoffice-online)
+# [Available on Docker Hub](https://hub.docker.com/r/zegorax/libreoffice-online-unlimited)
 
 # Introduction
 
