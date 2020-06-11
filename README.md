@@ -46,14 +46,12 @@ If you decide to compile this, it will take quite a few hours.
 
 
 ```bash
-docker pull tiredofit/libreoffice-online
+docker pull zegorax/libreoffice-online-unlimited
 ```
 
 The following image tags are available:
 
 * `latest` - See most recent versioned tag
-* `1.5` - Collabora Libreoffice 6.0.30 with Collabora Office Online 4.0.4-1
-* `1.1` - Collabora Libreoffice 5.3.61 with Collabora Office Online 3.4.2.1
 
 # Quick Start
 
