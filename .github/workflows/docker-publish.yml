@@ -20,6 +20,7 @@ env:
 jobs:
   push:
     runs-on: ubuntu-latest
+    timeout-minutes: 480
     if: github.event_name == 'push'
 
     steps:
